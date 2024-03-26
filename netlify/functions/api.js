@@ -9,7 +9,7 @@ const port = 3000;
 app.use(bodyParser.json());
 
 
-const mongoUri = 'mongodb+srv://parthmehta2017:8WKyY9uBlUqspr8Z@general-cluster.ucrxkhu.mongodb.net/CSCI5709_W24_T7?retryWrites=true&w=majority&appName=General-Cluster';
+const mongoUri = 'mongodb+srv://parthmehta2017:8WKyY9uBlUqspr8Z@general-cluster.ucrxkhu.mongodb.net/CSCI5709_W24_T7?tls=true&retryWrites=true&w=majority&appName=General-Cluster';
 mongoose.connect(mongoUri)
   .then(() => console.log('MongoDB connection established'))
   .catch(err => console.error('MongoDB connection error:', err));
