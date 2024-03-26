@@ -3,7 +3,7 @@
   node_bundler = "esbuild"
 [build]
   functions = "netlify/functions"
-  publish = "build"
+  publish = "public"
 [[redirects]]
   force = true
   from = "/*"
