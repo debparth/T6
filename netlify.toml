@@ -4,7 +4,7 @@
 [build]
   command = "npm install && npm run build"
   functions = "netlify/functions"
-  publish = "public"
+  publish = "build"
 [[redirects]]
   force = true
   from = "/*"
